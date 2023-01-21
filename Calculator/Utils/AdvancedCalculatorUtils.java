@@ -7,6 +7,8 @@ public class AdvancedCalculatorUtils {
 	
 	public String initValues(String text) {
 		
+		//pro dev 123
+		
 		List<String> clarified = new ArrayList<>();
 		List<String> operations = new ArrayList<>();
 		
@@ -200,8 +202,6 @@ public class AdvancedCalculatorUtils {
 	}
 	
 	List<String> doSpecialOperations(List<String> math) {
-		
-		//checking for last index, then do methods in last index from the end
 		
 		int startIndex = -1;
 		
